@@ -41,7 +41,7 @@ module load lofreq_star/2.1.3.1
 ##Run simulator
 #Generate sequences with variants ("alternative" sequences)
 #variant frequency = 0.005
-#control parameters: c (38/7500 == 0.005), M, and o
+#control parameters: c (7500*0.005==38), M, and o
 python neat-genreads-master/genReads.py \
 -r rDNA_repeat_S288c.fsa \
 -R 150 \
