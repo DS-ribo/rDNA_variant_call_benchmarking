@@ -42,8 +42,8 @@ samtools fastq -1 SRR4074258_rDNA.mapped.r1.fq -2 SRR4074258_rDNA.mapped.r2.fq -
 #to keep the same coverage, all the .fq files will have 2800144 lines (=length(s288c SRR4074255_rDNA.mapped.r*.fq files))
 
 #SK1:S288C 100%:0%
-head -n 2800144 SRR4074258_rDNA.mapped.r1.fq>> SK1_S288C_100_0.r1.fq
-head -n 2800144 SRR4074258_rDNA.mapped.r2.fq>> SK1_S288C_100_0.r2.fq
+head -n 2800144 SRR4074258_rDNA.mapped.r1.fq >> SK1_S288C_100_0.r1.fq
+head -n 2800144 SRR4074258_rDNA.mapped.r2.fq >> SK1_S288C_100_0.r2.fq
 
 #SK1:S288C 50%:50% Additional randomizing is not necessary since read lengths are already 'random' bc files are ordered just by read name
 #for r1
