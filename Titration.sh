@@ -14,7 +14,7 @@
 ########################################
 
 ##load modules
-module load samtools/intel/1.9
+module load samtools/intel/1.3.1
 
 ##Extract mapped reads from S288C
 #exclude R1 & R2 are unmapped (BOTH) (note: if mapped with the "Alignment and variant call" script this is already included there). 12 = 4(read unmapped) + 8(mate unmapped)
