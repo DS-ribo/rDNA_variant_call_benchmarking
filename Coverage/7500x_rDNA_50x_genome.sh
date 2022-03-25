@@ -32,7 +32,6 @@
 ##Load modules
 module purge
 module load numpy/python2.7/intel/1.14.0
-module load samtools/intel/1.9
 module load bowtie2/2.3.4.3
 module load samtools/intel/1.3.1
 module load lofreq_star/2.1.3.1
